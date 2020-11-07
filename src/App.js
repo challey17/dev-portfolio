@@ -1,9 +1,16 @@
-function App() {
+import React from "react";
+import NavBar from "./NavBar";
+import Projects from "./Projects";
+import Technologies from "./Technologies";
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>portfolio</h1>
-    </div>
+    <>
+      <NavBar />
+      <Technologies />
+      <Projects />
+    </>
   );
-}
+};
 
 export default App;
